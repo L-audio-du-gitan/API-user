@@ -1,0 +1,29 @@
+{
+  "name": "api-user",
+  "version": "1.0.0",
+  "description": "test push",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon src/app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .eslintignore src",
+    "lint:fix": "eslint --ignore-path .eslintignore src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-audio-du-gitan/API-user.git"
+  },
+  "author": "Zackaliok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-audio-du-gitan/API-user/issues"
+  },
+  "homepage": "https://github.com/L-audio-du-gitan/API-user#readme",
+  "dependencies": {
+    "@types/node": "^18.15.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
